@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Ubuntu';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(224, 209, 209);
+}
+.key{
+
+    border: 1px solid rgb(88, 78, 78);
+    background-color: rgb(224, 209, 209);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    display: inline-flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 20px;
+    flex-direction: column;
+    margin: 12px;
+    min-width: 150px;
+    position: relative;
+}
+.key small{
+    position: absolute;
+    top: -24px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    color:rgb(110, 106, 106)
+}
